@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap form</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width initial-scale=1 shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!--css styling-->
+    <style type="text/css"></style>
+    <!--javascript styling-->
+    <script type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 shadow-sm mt-5">
+          <script type="text/javascript">
+            document.write(` <form name="frm" method="post" >
+              <!--name starts-->
+            <fieldset class="form-group">
+              <label><strong >Name</strong></label>
+              <input
+                type="text"
+                name=""
+                value=""
+                placeholder="Enter your Name"
+                class="form-control"
+              />
+            </fieldset>
+            <!--name ends-->
+            <!--email starts-->
+            <fieldset class="form-group">
+                 <label><strong>Email</strong></label>
+                 <input type="email" name="" value="" placeholder="bhargav@gmail.com" class="form-control">
+            </fieldset>
+            <!--email ends-->
+            <!--age starts-->
+            <fieldset class="form-group">
+                <label><strong>Age (optional)</strong></label>
+                <input type="email" name="" value="" placeholder="Age" class="form-control">
+           </fieldset>
+           <!--age ends-->
+           <!--dropdown 1 starts-->
+           <fieldset class="form-group">
+                 <label class="col-form-label dropdown" data-toggle="dropdown"><strong>Which option best describes your current role?</strong></label>
+                 <select name="" class="form-control">
+                     <option vlaue="">Select current role</option>
+                     <option vlaue="">Student</option>
+                     <option vlaue="">Full Time Job</option>
+                     <option vlaue="">Full Time Learner</option>
+                     <option vlaue="">Prefer not to say</option>
+                     <option vlaue="">Other</option>
+                 </select>
+           </fieldset>
+           <!--dropdown1 ends-->
+           <!--radio starts-->
+           <fieldset class="form-group">
+               <label><strong>Would you recommend freeCodeCamp to a friend?</strong></label><br>
+               <input type="radio" name="" value="" class="mt-3">Definitely<br>
+               <input type="radio" name="" value="" class="mt-3" >Maybe <br>
+               <input type="radio" name="" value="" class="mt-3">Not sure
+           </fieldset>
+           <!--radio ends-->
+           <!--dropdown2 starts-->
+           <fieldset class="form-group">
+               <label class="col-form-label dropdown" data-toggle="dropdown"><strong>What is your favorite feature of freeCodeCamp?</strong></label>
+               <select name="" class="form-control">
+                   <option value="">Select an option</option>
+                   <option value="">Challenges</option>
+                   <option value="">Projects</option>
+                   <option value="">Community</option>
+                   <option value="">Open source</option>
+               </select>
+           </fieldset>
+           <!--dropdown2 ends-->
+           <!--checkbox starts-->
+           <fieldset class="form-group">
+               <label><strong>What would you like to see improved? (Check all that apply)</strong></label><br>
+                   <li class="list-unstyled"><input type="checkbox">Front-end Projects</li>
+                   <li class="list-unstyled"><input type="checkbox">Back-end Projects</li>
+                   <li class="list-unstyled"><input type="checkbox">Data Visualization</li>
+                   <li class="list-unstyled"><input type="checkbox">Challenges</li>
+                   <li class="list-unstyled"><input type="checkbox">Open Source Community</li>
+                   <li class="list-unstyled"><input type="checkbox">Gitter help rooms</li>
+                   <li class="list-unstyled"><input type="checkbox">Videos</li>
+                   <li class="list-unstyled"><input type="checkbox">City Meetups</li>
+                   <li class="list-unstyled"><input type="checkbox">Wiki</li>
+                   <li class="list-unstyled"><input type="checkbox">Forum</li>
+                   <li class="list-unstyled"><input type="checkbox">Additional Courses</li>
+           </fieldset>
+           <!--checkbox ends-->
+           <!--textarea starts-->
+           <fieldset class="form-group">
+               <label><strong>Any comments or suggestions?</strong></label>
+              <textarea class="form-control" >Enter your comment here</textarea>
+           </fieldset>
+           <!--textarea ends-->
+           <!--button starts-->
+           <a href="#" class="btn btn-success form-control">Submit</a>
+           <!--button ends-->
+          </form>`);
+          </script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
